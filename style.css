@@ -1,0 +1,74 @@
+/* Google Poppins Font CDN Link */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Variables */
+
+:root {
+    --primary-font-family: 'Poppins', sans-serif;
+    --light-white: #f5f8fa;
+    --gray: #5e6278;
+    --gray-1: #e3e3e3;
+}
+
+body {
+    font-family: var(--primary-font-family);
+    font-size: 14px;
+    background-image: url(Animated\ Shape.svg);
+}
+
+.container {
+    width: 100%;
+    height: 200px;
+    margin: 20px auto;
+    position: relative;
+    margin-right: 60px;
+}
+  
+
+/* Main CSS */
+
+.wrapper {
+    padding: 0 0 100px;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100%;
+}
+
+
+.wrapper input {
+    background-color: var(--light-white);
+    border-color: var(--light-white);
+    color: var(--gray);
+}
+
+.wrapper input:focus {
+    box-shadow: none;
+}
+
+.wrapper .password-info {
+    font-size: 10px;
+}
+
+.wrapper .submit_btn {
+    padding: 15px;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+.wrapper .submit_btn:focus,
+.wrapper .login_with:focus {
+    box-shadow: none;
+}
+
+.text-primary{
+    font-size: 16px;
+}
